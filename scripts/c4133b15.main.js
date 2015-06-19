@@ -1,0 +1,1 @@
+$("#nav").affix({offset:{top:$("#nav").offset().top,bottom:$("footer").outerHeight(!0)+$(".application").outerHeight(!0)+40}});
