@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>joshuamarquez.me</title>
+    <link>http://joshuamarquez.me/</link>
+    <description>Recent content on joshuamarquez.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joshua Marquez</copyright>
+    <lastBuildDate>Sun, 12 Jun 2016 15:10:58 -0700</lastBuildDate>
+    <atom:link href="http://joshuamarquez.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to use sails.io.js in Java</title>
+      <link>http://joshuamarquez.me/2016/06/12/how-to-use-sails.io.js-in-java/</link>
+      <pubDate>Sun, 12 Jun 2016 15:10:58 -0700</pubDate>
+      
+      <guid>http://joshuamarquez.me/2016/06/12/how-to-use-sails.io.js-in-java/</guid>
+      <description>&lt;p&gt;As we know &lt;a href=&#34;https://github.com/balderdashy/sails.io.js&#34;&gt;sails.io.js&lt;/a&gt; is the
+Sails socket client that is bundled by default in new Sails apps. It is a
+lightweight wrapper that sits on top of the Socket.IO client whose purpose is
+to make sending and receiving messages from your Sails backend as simple as
+possible.&lt;/p&gt;
+
+&lt;p&gt;Currently sails.io.js has only support for
+&lt;a href=&#34;https://github.com/balderdashy/sails.io.js#for-the-browser&#34;&gt;Browser&lt;/a&gt; and
+&lt;a href=&#34;https://github.com/balderdashy/sails.io.js#for-nodejs&#34;&gt;Node.js&lt;/a&gt;. Here we will
+learn how to make &lt;code&gt;.get()&lt;/code&gt;, &lt;code&gt;.post()&lt;/code&gt;, &lt;code&gt;.put()&lt;/code&gt;, &lt;code&gt;.delete()&lt;/code&gt; and &lt;code&gt;.request()&lt;/code&gt;
+methods from &lt;code&gt;sails.io.js&lt;/code&gt; in &lt;strong&gt;Java&lt;/strong&gt; with &lt;a href=&#34;https://github.com/socketio/socket.io-client-java&#34;&gt;socket.io-client-java&lt;/a&gt;.
+For &lt;code&gt;.off()&lt;/code&gt; and &lt;code&gt;.on()&lt;/code&gt; there is no need since &lt;code&gt;socket.io-client-java&lt;/code&gt;
+already does that.&lt;/p&gt;
+
+&lt;p&gt;Like surely you suspected &lt;code&gt;emit&lt;/code&gt; method of &lt;code&gt;socket.io-client-java&lt;/code&gt; is what we need
+to make &lt;code&gt;sails.io.js&lt;/code&gt; request. Lets take a look to
+&lt;a href=&#34;https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js#L573&#34;&gt;_emitFrom&lt;/a&gt; function from
+&lt;a href=&#34;https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js&#34;&gt;sails.io.js&lt;/a&gt; which is used to send requests.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function _emitFrom(socket, requestCtx) {
+
+  ...
+
+  // Since callback is embedded in requestCtx,
+  // retrieve it and delete the key before continuing.
+  var cb = requestCtx.cb;
+  delete requestCtx.cb;
+
+  // Name of the appropriate socket.io listener on the server
+  // ( === the request method or &amp;quot;verb&amp;quot;, e.g. &#39;get&#39;, &#39;post&#39;, &#39;put&#39;, etc. )
+  var sailsEndpoint = requestCtx.method;
+
+  socket._raw.emit(sailsEndpoint, requestCtx, function serverResponded(responseCtx) {
+
+    // Send back (emulatedHTTPBody, jsonWebSocketResponse)
+    if (cb) {
+      cb(responseCtx.body, new JWR(responseCtx));
+    }
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you can see, &lt;code&gt;sailsEndpoint&lt;/code&gt; is the HTTP method to use as the socket event.
+&lt;code&gt;requestCtx&lt;/code&gt; is the body as the second argument of &lt;code&gt;emit&lt;/code&gt;, and the third
+parameter passed to &lt;code&gt;emit&lt;/code&gt; is the  &lt;strong&gt;Acknowledge callback&lt;/strong&gt;, a key parameter to
+receive response from server. Once &lt;code&gt;serverResponded&lt;/code&gt; is executed, the callback
+extracted from &lt;code&gt;requestCtx&lt;/code&gt; is called with response body and JSON web socket
+response.&lt;/p&gt;
+
+&lt;p&gt;For example, if we do a &lt;code&gt;POST&lt;/code&gt; with body request, &lt;code&gt;_emitFrom&lt;/code&gt; will be executed
+with the following &lt;code&gt;requestCtx&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;{
+  method, &#39;POST&#39;,
+  headers: { &#39;x-my-custom-header&#39;: &#39;some string&#39; },
+  data: { email: &#39;joshua.marquezn@gmail.com&#39; },
+  url: &#39;/user&#39;
+  cb: function(responseBody, JWR) {
+    // ...
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As we mentioned before&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;method&lt;/code&gt; is the event&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;headers&lt;/code&gt;, &lt;code&gt;data&lt;/code&gt; and &lt;code&gt;url&lt;/code&gt; is the second argument of &lt;code&gt;.emit()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cb&lt;/code&gt; is the Acknowledge callback of &lt;code&gt;.emit()&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now lets try to do something similar but in Java.&lt;/p&gt;
+
+&lt;p&gt;This could be be our &lt;a href=&#34;https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js#L573&#34;&gt;&lt;code&gt;_emitFrom&lt;/code&gt;&lt;/a&gt; in Java.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;void emitFrom(Socket socket, SailsSocketRequest request) {
+  // Name of the appropriate socket.io listener on the server
+  // ( === the request method or &amp;quot;verb&amp;quot;, e.g. &#39;get&#39;, &#39;post&#39;, &#39;put&#39;, etc. )
+  String sailsEndpoint = request.getMethod();
+
+  // Since Listener is embedded in request, retrieve it.
+  final SailsSocketResponse.Listener listener = request.getListener();
+
+  socket.emit(sailsEndpoint, request.toJSONObject(), new Ack() {
+    @Override
+    public void call(Object... args) {
+      // Send back jsonWebSocketResponse
+      if (listener != null) {
+        listener.onResponse(new JWR((JSONObject) args[0]));
+      }
+    }
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can find a full implementation of &lt;code&gt;sails.io.js&lt;/code&gt; in Java called &lt;a href=&#34;https://github.com/joshuamarquez/sails.io.java&#34;&gt;&lt;code&gt;sails.io.java&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>http://joshuamarquez.me/page/contact/</link>
+      <pubDate>Sun, 08 May 2016 16:51:09 -0700</pubDate>
+      
+      <guid>http://joshuamarquez.me/page/contact/</guid>
+      <description>
+
+&lt;h2 id=&#34;contact:3c4864f00d23f7ea35511ec930ce1d9c&#34;&gt;Contact&lt;/h2&gt;
+
+&lt;p&gt;You can reach me at&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;twitter &lt;a href=&#34;https://twitter.com/joshuamarquezn&#34;&gt;@joshuamarquezn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;gmail &lt;a href=&#34;mailto:joshua.marquezn@gmail.com&#34;&gt;joshua.marquezn@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://joshuamarquez.me/page/about/</link>
+      <pubDate>Sun, 08 May 2016 16:51:02 -0700</pubDate>
+      
+      <guid>http://joshuamarquez.me/page/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;about:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;Hi!, I&amp;rsquo;m Josué Márquez N. Back-End developer from Hermosillo, México. I love coding and learn new things.&lt;/p&gt;
+
+&lt;h2 id=&#34;work-experience:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Work Experience&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;February 2015 - Present&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Protocool: Back-End Developer (Node.js) &amp;amp; Mobile Developer (Android).
+Hermosillo, MX.&lt;/strong&gt; Currently developing a real time application in Node.js platform and Android.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;September 2014 - January 2015&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Teknol: GIS Developer &amp;amp; Front-End Developer (AngularJS). Hermosillo, MX.&lt;/strong&gt; I
+was as intern in Teknol developing in Ionic framework for a GIS app.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;November 2012 - August 2014&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Freelance: Full-Stack Web Developer &amp;amp; Mobile Developer (Android). Hermosillo,
+MX.&lt;/strong&gt; As freelance most part of my projects were in PHP (Laravel, Yii), HTML5, CSS,
+JavaScript, AJAX and jQuery. I had the opportunity to work with a couple of
+Android projects leaving me great experience and satisfaction.&lt;/p&gt;
+
+&lt;h2 id=&#34;courses-and-achievements:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Courses and Achievements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;February 2014&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://joshuamarquez.me/docs/eCertificate.pdf&#34;&gt;&lt;strong&gt;Oracle Certified Professional, Java SE 6 Programmer.&lt;/strong&gt;&lt;/a&gt;
+Recognized by The Oracle Certification Program as a Java SE 6 Programmer February 1st 2014.&lt;/p&gt;
+
+&lt;h2 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;August 2010 - May 2015&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Information Systems Engineer&lt;/strong&gt;, Universidad de Sonora. Hermosillo, México.&lt;/p&gt;
+
+&lt;h2 id=&#34;computer-languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Computer Languages&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Java &lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;JavaScript &lt;strong&gt;95%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;HTML5 &lt;strong&gt;88%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;CSS3 &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;SQL &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;skills:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Skills&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Node.js &lt;strong&gt;95%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;AngularJS &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Mocha &lt;strong&gt;80%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Sails.js &lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Socket.IO &lt;strong&gt;95%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Android &lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Git &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;OpenCV &lt;strong&gt;75%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;MySQL &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Languages&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Español&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Native competition&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;English&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Professional basic competition&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
