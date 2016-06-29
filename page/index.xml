@@ -37,78 +37,53 @@
       <guid>http://joshuamarquez.me/page/about/</guid>
       <description>
 
-&lt;h1 id=&#34;about-me:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About me&lt;/h1&gt;
+&lt;h2 id=&#34;about:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About&lt;/h2&gt;
 
-&lt;p&gt;Hi!, I&amp;rsquo;m Josué Márquez N. Back-End developer from Hermosillo, México.&lt;/p&gt;
+&lt;p&gt;Hi!, I&amp;rsquo;m Josué Márquez N. Back-End developer from Hermosillo, México. I love coding and learn new things.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;I love&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Coding&lt;/li&gt;
-&lt;li&gt;Learn new things&lt;/li&gt;
-&lt;li&gt;Fantastic/Sci-Fi reading&lt;/li&gt;
-&lt;li&gt;Football (soccer)&lt;/li&gt;
-&lt;li&gt;Mountain Biking&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;projects:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Projects&lt;/h1&gt;
+&lt;h2 id=&#34;work-experience:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Work Experience&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/~joshua.marquez&#34;&gt;NPM packages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/joshuamarquez?tab=repositories&#34;&gt;GitHub repos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bintray.com/joshuamarquez/maven&#34;&gt;Maven Java artifacts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez&#34;&gt;Android Apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 2015 - Present&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;work-experience:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Work Experience&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Protocool: Back-End Developer (Node.js) &amp;amp; Mobile Developer (Android).
+Hermosillo, MX.&lt;/strong&gt; Currently developing a real time application in Node.js platform and Android.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;February 2015 - Present&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;September 2014 - January 2015&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;protocool-back-end-developer-node-js-mobile-developer-android-hermosillo-mx:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;[Protocool] Back-End Developer (Node.js) &amp;amp; Mobile Developer (Android). Hermosillo, MX.&lt;/h4&gt;
-
-&lt;p&gt;Currently developing a real time application in Node.js platform and Android.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Teknol: GIS Developer &amp;amp; Front-End Developer (AngularJS). Hermosillo, MX.&lt;/strong&gt; I
+was as intern in Teknol developing in Ionic framework for a GIS app.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;September 2014 - January 2015&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;November 2012 - August 2014&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;teknol-http-www-teknol-net-gis-developer-front-end-developer-angularjs-hermosillo-mx:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;[&lt;a href=&#34;http://www.teknol.net/&#34;&gt;Teknol&lt;/a&gt;] GIS Developer &amp;amp; Front-End Developer (AngularJS). Hermosillo, MX.&lt;/h4&gt;
-
-&lt;p&gt;I was as intern in Teknol developing in Ionic framework for a GIS app.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;November 2012 - August 2014&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;freelance-full-stack-web-developer-mobile-developer-android-hermosillo-mx:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;[Freelance] Full-Stack Web Developer &amp;amp; Mobile Developer (Android). Hermosillo, MX.&lt;/h4&gt;
-
-&lt;p&gt;As freelance most part of my projects were in PHP (Laravel, Yii), HTML5, CSS,
+&lt;p&gt;&lt;strong&gt;Freelance: Full-Stack Web Developer &amp;amp; Mobile Developer (Android). Hermosillo,
+MX.&lt;/strong&gt; As freelance most part of my projects were in PHP (Laravel, Yii), HTML5, CSS,
 JavaScript, AJAX and jQuery. I had the opportunity to work with a couple of
 Android projects leaving me great experience and satisfaction.&lt;/p&gt;
 
-&lt;h1 id=&#34;courses-and-achievements:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Courses and Achievements&lt;/h1&gt;
+&lt;h2 id=&#34;courses-and-achievements:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Courses and Achievements&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;February 2014&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;February 2014&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;oracle-certified-professional-java-se-6-programmer:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Oracle Certified Professional, Java SE 6 Programmer.&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;http://joshuamarquez.me/docs/eCertificate.pdf&#34;&gt;&lt;strong&gt;Oracle Certified Professional, Java SE 6 Programmer.&lt;/strong&gt;&lt;/a&gt;
+Recognized by The Oracle Certification Program as a Java SE 6 Programmer February 1st 2014.&lt;/p&gt;
 
-&lt;p&gt;Recognized by The Oracle Certification Program as a Java SE 6 Programmer February 1st 2014. &lt;a href=&#34;http://joshuamarquez.me/docs/eCertificate.pdf&#34;&gt;&lt;strong&gt;PDF Certificate.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h1&gt;
+&lt;h2 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;August 2010 - May 2015&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;August 2010 - May 2015&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;information-systems-engineer:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Information Systems Engineer&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Information Systems Engineer&lt;/strong&gt;, Universidad de Sonora. Hermosillo, México.&lt;/p&gt;
 
-&lt;p&gt;Universidad de Sonora. Hermosillo, México.&lt;/p&gt;
-
-&lt;h1 id=&#34;computer-languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Computer Languages&lt;/h1&gt;
+&lt;h2 id=&#34;computer-languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Computer Languages&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Java &lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
@@ -118,7 +93,7 @@ Android projects leaving me great experience and satisfaction.&lt;/p&gt;
 &lt;li&gt;SQL &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;skills:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Skills&lt;/h1&gt;
+&lt;h2 id=&#34;skills:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Skills&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Node.js &lt;strong&gt;95%&lt;/strong&gt;&lt;/li&gt;
@@ -132,16 +107,16 @@ Android projects leaving me great experience and satisfaction.&lt;/p&gt;
 &lt;li&gt;MySQL &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Languages&lt;/h1&gt;
+&lt;h2 id=&#34;languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Languages&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Español&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Español&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Native competition&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;English&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Professional basic competition&lt;/p&gt;

@@ -7,8 +7,66 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Joshua Marquez</copyright>
-    <lastBuildDate>Sun, 12 Jun 2016 15:10:58 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jun 2016 12:45:34 -0700</lastBuildDate>
     <atom:link href="http://joshuamarquez.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How I Hacked computrabajo.com.mx</title>
+      <link>http://joshuamarquez.me/2016/06/29/how-i-hacked-computrabajo/</link>
+      <pubDate>Wed, 29 Jun 2016 12:45:34 -0700</pubDate>
+      
+      <guid>http://joshuamarquez.me/2016/06/29/how-i-hacked-computrabajo/</guid>
+      <description>&lt;p&gt;Hi community, today I will show you How I Hacked &lt;a href=&#34;http://www.computrabajo.com.mx/&#34;&gt;computrabajo.com.mx&lt;/a&gt;,
+a well known job market site in Latin America.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;computrabajo.com.mx&lt;/strong&gt; lets you post free jobs offers limited to the first 30 candidates,
+if the number of candidates interested in your offer exceeds then you have the option to
+pay for a full one to have access to the remaining candidates. Option to remove candidates
+subscribed to your offer is only &amp;ldquo;available&amp;rdquo; with a full job offer but I found a
+way to remove candidates from it in a free job offer allowing you to see the
+candidates that were hidden due to candidate limit exceeded.&lt;/p&gt;
+
+&lt;p&gt;In the following image we can see that 32 candidates are subscribed to a job
+offer and a message appears in the bottom telling us that 2 candidates are hidden and
+can be shown paying a full job offer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joshuamarquez.me/img/screenshot_2016-06-29 12-08-15.png&#34; alt=&#34;screenshot_01&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;computrabajo.com.mx has a method named &lt;code&gt;DeleteCandidate(p_ims, m_folder_id)&lt;/code&gt;
+which is used to remove candidates subscribed in a job offer, we can see it in
+Developer tools.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joshuamarquez.me/img/screenshot_2016-06-29 12-11-08.png&#34; alt=&#34;screenshot_02&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we need that &lt;code&gt;p_ims&lt;/code&gt; in order to remove a candidate, we can get it from URL
+by viewing a candidate profile.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joshuamarquez.me/img/screenshot_2016-06-29 12-12-03.png&#34; alt=&#34;screenshot_03&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next is to execute &lt;code&gt;DeleteCandidate(&amp;lt;ims we got from URL&amp;gt;, &#39;1&#39;)&lt;/code&gt; with &lt;code&gt;ims&lt;/code&gt; we got from URL.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joshuamarquez.me/img/screenshot_2016-06-29 12-13-11.png&#34; alt=&#34;screenshot_04&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A alert is shown asking if you want to remove candidate.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joshuamarquez.me/img/screenshot_2016-06-29 12-13-40.png&#34; alt=&#34;screenshot_05&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We press &lt;code&gt;OK&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joshuamarquez.me/img/screenshot_2016-06-29 12-13-52.png&#34; alt=&#34;screenshot_06&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now if we list our candidates we can see that we have 31 subscriptions and a
+message saying that we only have 1 candidate hidden.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joshuamarquez.me/img/screenshot_2016-06-29 12-14-06.png&#34; alt=&#34;screenshot_07&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Previous hidden candidate now is available.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joshuamarquez.me/img/screenshot_2016-06-29 12-14-20.png&#34; alt=&#34;screenshot_08&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;computrabajo.com.mx&lt;/strong&gt; has been noticed about this issue and we hope they will fix it soon.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How to use sails.io.js in Java</title>
@@ -142,78 +200,53 @@ with the following &lt;code&gt;requestCtx&lt;/code&gt;.&lt;/p&gt;
       <guid>http://joshuamarquez.me/page/about/</guid>
       <description>
 
-&lt;h1 id=&#34;about-me:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About me&lt;/h1&gt;
+&lt;h2 id=&#34;about:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About&lt;/h2&gt;
 
-&lt;p&gt;Hi!, I&amp;rsquo;m Josué Márquez N. Back-End developer from Hermosillo, México.&lt;/p&gt;
+&lt;p&gt;Hi!, I&amp;rsquo;m Josué Márquez N. Back-End developer from Hermosillo, México. I love coding and learn new things.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;I love&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Coding&lt;/li&gt;
-&lt;li&gt;Learn new things&lt;/li&gt;
-&lt;li&gt;Fantastic/Sci-Fi reading&lt;/li&gt;
-&lt;li&gt;Football (soccer)&lt;/li&gt;
-&lt;li&gt;Mountain Biking&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;projects:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Projects&lt;/h1&gt;
+&lt;h2 id=&#34;work-experience:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Work Experience&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/~joshua.marquez&#34;&gt;NPM packages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/joshuamarquez?tab=repositories&#34;&gt;GitHub repos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bintray.com/joshuamarquez/maven&#34;&gt;Maven Java artifacts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez&#34;&gt;Android Apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 2015 - Present&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;work-experience:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Work Experience&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Protocool: Back-End Developer (Node.js) &amp;amp; Mobile Developer (Android).
+Hermosillo, MX.&lt;/strong&gt; Currently developing a real time application in Node.js platform and Android.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;February 2015 - Present&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;September 2014 - January 2015&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;protocool-back-end-developer-node-js-mobile-developer-android-hermosillo-mx:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;[Protocool] Back-End Developer (Node.js) &amp;amp; Mobile Developer (Android). Hermosillo, MX.&lt;/h4&gt;
-
-&lt;p&gt;Currently developing a real time application in Node.js platform and Android.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Teknol: GIS Developer &amp;amp; Front-End Developer (AngularJS). Hermosillo, MX.&lt;/strong&gt; I
+was as intern in Teknol developing in Ionic framework for a GIS app.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;September 2014 - January 2015&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;November 2012 - August 2014&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;teknol-http-www-teknol-net-gis-developer-front-end-developer-angularjs-hermosillo-mx:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;[&lt;a href=&#34;http://www.teknol.net/&#34;&gt;Teknol&lt;/a&gt;] GIS Developer &amp;amp; Front-End Developer (AngularJS). Hermosillo, MX.&lt;/h4&gt;
-
-&lt;p&gt;I was as intern in Teknol developing in Ionic framework for a GIS app.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;November 2012 - August 2014&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;freelance-full-stack-web-developer-mobile-developer-android-hermosillo-mx:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;[Freelance] Full-Stack Web Developer &amp;amp; Mobile Developer (Android). Hermosillo, MX.&lt;/h4&gt;
-
-&lt;p&gt;As freelance most part of my projects were in PHP (Laravel, Yii), HTML5, CSS,
+&lt;p&gt;&lt;strong&gt;Freelance: Full-Stack Web Developer &amp;amp; Mobile Developer (Android). Hermosillo,
+MX.&lt;/strong&gt; As freelance most part of my projects were in PHP (Laravel, Yii), HTML5, CSS,
 JavaScript, AJAX and jQuery. I had the opportunity to work with a couple of
 Android projects leaving me great experience and satisfaction.&lt;/p&gt;
 
-&lt;h1 id=&#34;courses-and-achievements:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Courses and Achievements&lt;/h1&gt;
+&lt;h2 id=&#34;courses-and-achievements:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Courses and Achievements&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;February 2014&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;February 2014&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;oracle-certified-professional-java-se-6-programmer:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Oracle Certified Professional, Java SE 6 Programmer.&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;http://joshuamarquez.me/docs/eCertificate.pdf&#34;&gt;&lt;strong&gt;Oracle Certified Professional, Java SE 6 Programmer.&lt;/strong&gt;&lt;/a&gt;
+Recognized by The Oracle Certification Program as a Java SE 6 Programmer February 1st 2014.&lt;/p&gt;
 
-&lt;p&gt;Recognized by The Oracle Certification Program as a Java SE 6 Programmer February 1st 2014. &lt;a href=&#34;http://joshuamarquez.me/docs/eCertificate.pdf&#34;&gt;&lt;strong&gt;PDF Certificate.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h1&gt;
+&lt;h2 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;August 2010 - May 2015&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;August 2010 - May 2015&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;information-systems-engineer:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Information Systems Engineer&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Information Systems Engineer&lt;/strong&gt;, Universidad de Sonora. Hermosillo, México.&lt;/p&gt;
 
-&lt;p&gt;Universidad de Sonora. Hermosillo, México.&lt;/p&gt;
-
-&lt;h1 id=&#34;computer-languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Computer Languages&lt;/h1&gt;
+&lt;h2 id=&#34;computer-languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Computer Languages&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Java &lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
@@ -223,7 +256,7 @@ Android projects leaving me great experience and satisfaction.&lt;/p&gt;
 &lt;li&gt;SQL &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;skills:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Skills&lt;/h1&gt;
+&lt;h2 id=&#34;skills:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Skills&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Node.js &lt;strong&gt;95%&lt;/strong&gt;&lt;/li&gt;
@@ -237,16 +270,16 @@ Android projects leaving me great experience and satisfaction.&lt;/p&gt;
 &lt;li&gt;MySQL &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Languages&lt;/h1&gt;
+&lt;h2 id=&#34;languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Languages&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Español&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Español&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Native competition&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;English&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Professional basic competition&lt;/p&gt;
