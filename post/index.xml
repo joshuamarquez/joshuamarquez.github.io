@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on joshuamarquez.me</title>
-    <link>http://joshuamarquez.me/post/</link>
+    <link>http://joshuamarquez.me/post/index.xml</link>
     <description>Recent content in Posts on joshuamarquez.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>

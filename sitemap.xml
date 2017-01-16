@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://joshuamarquez.me/</loc>
-    <lastmod>2016-06-29T12:45:34-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://joshuamarquez.me/2016/06/29/how-i-hacked-computrabajo/</loc>
     <lastmod>2016-06-29T12:45:34-07:00</lastmod>
   </url>
@@ -25,6 +19,24 @@
   <url>
     <loc>http://joshuamarquez.me/page/about/</loc>
     <lastmod>2016-05-08T16:51:02-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://joshuamarquez.me/page/</loc>
+    <lastmod>2016-05-08T16:51:09-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://joshuamarquez.me/post/</loc>
+    <lastmod>2016-06-29T12:45:34-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://joshuamarquez.me/</loc>
+    <lastmod>2016-06-29T12:45:34-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

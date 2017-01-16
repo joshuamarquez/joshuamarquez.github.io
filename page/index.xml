@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on joshuamarquez.me</title>
-    <link>http://joshuamarquez.me/page/</link>
+    <link>http://joshuamarquez.me/page/index.xml</link>
     <description>Recent content in Pages on joshuamarquez.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -18,9 +18,9 @@
       <guid>http://joshuamarquez.me/page/contact/</guid>
       <description>
 
-&lt;h2 id=&#34;contact:3c4864f00d23f7ea35511ec930ce1d9c&#34;&gt;Contact&lt;/h2&gt;
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
 
-&lt;p&gt;You can reach me at&lt;/p&gt;
+&lt;p&gt;You can reach me at&amp;hellip;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;twitter &lt;a href=&#34;https://twitter.com/joshuamarquezn&#34;&gt;@joshuamarquezn&lt;/a&gt;&lt;/li&gt;
@@ -37,9 +37,9 @@
       <guid>http://joshuamarquez.me/page/about/</guid>
       <description>
 
-&lt;h1 id=&#34;about-me:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About me&lt;/h1&gt;
+&lt;h1 id=&#34;who-am-i&#34;&gt;Who Am I?&lt;/h1&gt;
 
-&lt;p&gt;Hi!, I&amp;rsquo;m Josué Márquez N. Back-End developer from Hermosillo, México.&lt;/p&gt;
+&lt;p&gt;Hi!, I&amp;rsquo;m Josué Márquez N., a Back-End developer from Hermosillo, México.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;I love&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
 
@@ -51,7 +51,7 @@
 &lt;li&gt;Mountain Biking&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;projects:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Projects&lt;/h1&gt;
+&lt;h1 id=&#34;things-i-do-in-my-free-time-some-of-it&#34;&gt;Things I do in my free time (some of it)&amp;hellip;&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/~joshua.marquez&#34;&gt;NPM packages&lt;/a&gt;&lt;/li&gt;
@@ -60,79 +60,65 @@
 &lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez&#34;&gt;Android Apps&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;work-experience:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Work Experience&lt;/h1&gt;
+&lt;h1 id=&#34;experience&#34;&gt;Experience&lt;/h1&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;February 2015 - Present&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;February 2015 - Present&lt;/em&gt; / &lt;strong&gt;Back-End Developer at Protocool in Hermosillo, MX.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;protocool-back-end-developer-node-js-mobile-developer-android-hermosillo-mx:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;[Protocool] Back-End Developer (Node.js) &amp;amp; Mobile Developer (Android). Hermosillo, MX.&lt;/h4&gt;
+&lt;p&gt;Most of my projects are on Node.js along with todays top technologies/tools like
+Docker, Travis CI, Mocha, etc.&lt;/p&gt;
 
-&lt;p&gt;Currently developing a real time application in Node.js platform and Android.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;September 2014 - January 2015&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;September 2014 - January 2015&lt;/em&gt; / &lt;strong&gt;GIS Developer &amp;amp; Front-End Developer (AngularJS) at &lt;a href=&#34;http://www.teknol.net/&#34;&gt;Teknol&lt;/a&gt; in Hermosillo, MX.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;teknol-http-www-teknol-net-gis-developer-front-end-developer-angularjs-hermosillo-mx:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;[&lt;a href=&#34;http://www.teknol.net/&#34;&gt;Teknol&lt;/a&gt;] GIS Developer &amp;amp; Front-End Developer (AngularJS). Hermosillo, MX.&lt;/h4&gt;
+&lt;p&gt;Made my internship in Teknol developing a GIS app with Ionic framework and
+GeoServer.&lt;/p&gt;
 
-&lt;p&gt;I was as intern in Teknol developing in Ionic framework for a GIS app.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;November 2012 - August 2014&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;freelance-full-stack-web-developer-mobile-developer-android-hermosillo-mx:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;[Freelance] Full-Stack Web Developer &amp;amp; Mobile Developer (Android). Hermosillo, MX.&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;November 2012 - August 2014&lt;/em&gt; / &lt;strong&gt;Full-Stack Web Developer &amp;amp; Mobile Developer (Android) at Freelance in Hermosillo, MX.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;As freelance most part of my projects were in PHP (Laravel, Yii), HTML5, CSS,
 JavaScript, AJAX and jQuery. I had the opportunity to work with a couple of
-Android projects leaving me great experience and satisfaction.&lt;/p&gt;
+Android projects leaving me great experience and enthusiasm to continue in the
+world of programming.&lt;/p&gt;
 
-&lt;h1 id=&#34;courses-and-achievements:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Courses and Achievements&lt;/h1&gt;
+&lt;hr /&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;February 2014&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&#34;courses-and-achievements&#34;&gt;Courses and Achievements&lt;/h1&gt;
 
-&lt;h4 id=&#34;oracle-certified-professional-java-se-6-programmer:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Oracle Certified Professional, Java SE 6 Programmer.&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;February 2014&lt;/em&gt; / &lt;strong&gt;Oracle Certified Professional, Java SE 6 Programmer.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Recognized by The Oracle Certification Program as a Java SE 6 Programmer February 1st 2014. &lt;a href=&#34;http://joshuamarquez.me/docs/eCertificate.pdf&#34;&gt;&lt;strong&gt;PDF Certificate.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Recognized by The Oracle Certification Program as a Java SE 6 Programmer.
+&lt;a href=&#34;http://joshuamarquez.me/docs/eCertificate.pdf&#34;&gt;&lt;strong&gt;PDF Certificate.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h1&gt;
+&lt;hr /&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;August 2010 - May 2015&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&#34;education&#34;&gt;Education&lt;/h1&gt;
 
-&lt;h4 id=&#34;information-systems-engineer:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Information Systems Engineer&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;August 2010 - May 2015&lt;/em&gt; / &lt;strong&gt;Information Systems Engineer&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Universidad de Sonora. Hermosillo, México.&lt;/p&gt;
 
-&lt;h1 id=&#34;computer-languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Computer Languages&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;computer-languages&#34;&gt;Computer Languages&lt;/h1&gt;
+
+&lt;p&gt;Java, JavaScript, HTML5, CSS3, SQL.&lt;/p&gt;
+
+&lt;h1 id=&#34;skills&#34;&gt;Skills&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Java &lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;JavaScript &lt;strong&gt;95%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;HTML5 &lt;strong&gt;88%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;CSS3 &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;SQL &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Node.js&lt;/li&gt;
+&lt;li&gt;Mocha&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;Sails.js&lt;/li&gt;
+&lt;li&gt;Socket.IO&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;skills:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Skills&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Node.js &lt;strong&gt;95%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;AngularJS &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Mocha &lt;strong&gt;80%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Sails.js &lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Socket.IO &lt;strong&gt;95%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Android &lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Git &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;OpenCV &lt;strong&gt;75%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;MySQL &lt;strong&gt;85%&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;languages:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Languages&lt;/h1&gt;
+&lt;h1 id=&#34;languages&#34;&gt;Languages&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Español&lt;/strong&gt;&lt;/li&gt;
