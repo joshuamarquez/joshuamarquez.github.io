@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://joshuamarquez.me/2016/06/29/how-i-hacked-computrabajo/</loc>
+    <loc>http://joshuamarquez.me/posts/how-i-hacked-computrabajo/</loc>
     <lastmod>2016-06-29T12:45:34-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://joshuamarquez.me/2016/06/12/how-to-use-sails.io.js-in-java/</loc>
+    <loc>http://joshuamarquez.me/posts/how-to-use-sails.io.js-in-java/</loc>
     <lastmod>2016-06-12T15:10:58-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://joshuamarquez.me/page/contact/</loc>
-    <lastmod>2016-05-08T16:51:09-07:00</lastmod>
   </url>
   
   <url>
@@ -22,14 +18,24 @@
   </url>
   
   <url>
-    <loc>http://joshuamarquez.me/page/</loc>
-    <lastmod>2016-05-08T16:51:09-07:00</lastmod>
+    <loc>http://joshuamarquez.me/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuamarquez.me/post/</loc>
+    <loc>http://joshuamarquez.me/page/</loc>
+    <lastmod>2016-05-08T16:51:02-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://joshuamarquez.me/posts/</loc>
     <lastmod>2016-06-29T12:45:34-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://joshuamarquez.me/tags/</loc>
     <priority>0</priority>
   </url>
   

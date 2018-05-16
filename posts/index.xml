@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>joshuamarquez.me</title>
-    <link>http://joshuamarquez.me/</link>
-    <description>Recent content on joshuamarquez.me</description>
+    <title>Posts on joshuamarquez.me</title>
+    <link>http://joshuamarquez.me/posts/</link>
+    <description>Recent content in Posts on joshuamarquez.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Joshua Marquez</copyright>
     <lastBuildDate>Wed, 29 Jun 2016 12:45:34 -0700</lastBuildDate>
     
-	<atom:link href="http://joshuamarquez.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://joshuamarquez.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -30,18 +30,6 @@ computrabajo.com.mx lets you post free jobs offers limited to the first 30 candi
       <guid>http://joshuamarquez.me/posts/how-to-use-sails.io.js-in-java/</guid>
       <description>As we know sails.io.js is the Sails socket client that is bundled by default in new Sails apps. It is a lightweight wrapper that sits on top of the Socket.IO client whose purpose is to make sending and receiving messages from your Sails backend as simple as possible.
 Currently sails.io.js has only support for Browser and Node.js. Here we will learn how to make .get(), .post(), .put(), .delete() and .request() methods from sails.</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://joshuamarquez.me/page/about/</link>
-      <pubDate>Sun, 08 May 2016 16:51:02 -0700</pubDate>
-      
-      <guid>http://joshuamarquez.me/page/about/</guid>
-      <description>Who Am I? Hi!, I&amp;rsquo;m Josué Márquez Navarro, a Software Engineer.
-I love&amp;hellip;
- Coding Mountain Biking Fantastic/Sci-Fi reading Learn new things  Things I do in my free time (some of them)&amp;hellip;  GitHub repos npm packages Docker images Maven Java artifacts Android Apps  Experience February 2018 - Present / Back-End &amp;amp; DevOps Developer at Agave Lab in Guadalajara, MX.
-Currently working with microservices using technologies like:</description>
     </item>
     
   </channel>

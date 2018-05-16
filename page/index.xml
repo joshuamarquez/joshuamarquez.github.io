@@ -2,32 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on joshuamarquez.me</title>
-    <link>http://joshuamarquez.me/page/index.xml</link>
+    <link>http://joshuamarquez.me/page/</link>
     <description>Recent content in Pages on joshuamarquez.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Joshua Marquez</copyright>
-    <lastBuildDate>Sun, 08 May 2016 16:51:09 -0700</lastBuildDate>
-    <atom:link href="http://joshuamarquez.me/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 May 2016 16:51:02 -0700</lastBuildDate>
     
-    <item>
-      <title>contact</title>
-      <link>http://joshuamarquez.me/page/contact/</link>
-      <pubDate>Sun, 08 May 2016 16:51:09 -0700</pubDate>
-      
-      <guid>http://joshuamarquez.me/page/contact/</guid>
-      <description>
-
-&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
-
-&lt;p&gt;You can reach me at&amp;hellip;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;twitter &lt;a href=&#34;https://twitter.com/joshuamarquezn&#34;&gt;@joshuamarquezn&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;gmail &lt;a href=&#34;mailto:joshua.marquezn@gmail.com&#34;&gt;joshua.marquezn@gmail.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
+	<atom:link href="http://joshuamarquez.me/page/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>about</title>
@@ -35,104 +18,10 @@
       <pubDate>Sun, 08 May 2016 16:51:02 -0700</pubDate>
       
       <guid>http://joshuamarquez.me/page/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;who-am-i&#34;&gt;Who Am I?&lt;/h1&gt;
-
-&lt;p&gt;Hi!, I&amp;rsquo;m Josué Márquez N., a Back-End developer from Hermosillo, México.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;I love&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Coding&lt;/li&gt;
-&lt;li&gt;Learn new things&lt;/li&gt;
-&lt;li&gt;Fantastic/Sci-Fi reading&lt;/li&gt;
-&lt;li&gt;Football (soccer)&lt;/li&gt;
-&lt;li&gt;Mountain Biking&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;things-i-do-in-my-free-time-some-of-it&#34;&gt;Things I do in my free time (some of it)&amp;hellip;&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/~joshua.marquez&#34;&gt;npm packages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/joshuamarquez&#34;&gt;Docker images&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/joshuamarquez?tab=repositories&#34;&gt;GitHub repos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bintray.com/joshuamarquez/maven&#34;&gt;Maven Java artifacts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez&#34;&gt;Android Apps&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;experience&#34;&gt;Experience&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;February 2015 - Present&lt;/em&gt; / &lt;strong&gt;Back-End Developer at Protocool in Hermosillo, MX.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Most of my projects are on Node.js along with todays top technologies/tools like
-Docker, Travis CI, Mocha, etc.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;September 2014 - January 2015&lt;/em&gt; / &lt;strong&gt;GIS Developer &amp;amp; Front-End Developer (AngularJS) at &lt;a href=&#34;http://www.teknol.net/&#34;&gt;Teknol&lt;/a&gt; in Hermosillo, MX.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Made my internship in Teknol developing a GIS app with Ionic framework and
-GeoServer.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;November 2012 - August 2014&lt;/em&gt; / &lt;strong&gt;Full-Stack Web Developer &amp;amp; Mobile Developer (Android) at Freelance in Hermosillo, MX.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;As freelance most part of my projects were in PHP (Laravel, Yii), HTML5, CSS,
-JavaScript, AJAX and jQuery. I had the opportunity to work with a couple of
-Android projects leaving me great experience and enthusiasm to continue in the
-world of programming.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;courses-and-achievements&#34;&gt;Courses and Achievements&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;February 2014&lt;/em&gt; / &lt;strong&gt;Oracle Certified Professional, Java SE 6 Programmer.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Recognized by The Oracle Certification Program as a Java SE 6 Programmer.
-&lt;a href=&#34;http://joshuamarquez.me/docs/eCertificate.pdf&#34;&gt;&lt;strong&gt;PDF Certificate.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;education&#34;&gt;Education&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;August 2010 - May 2015&lt;/em&gt; / &lt;strong&gt;Information Systems Engineer&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Universidad de Sonora. Hermosillo, México.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;computer-languages&#34;&gt;Computer Languages&lt;/h1&gt;
-
-&lt;p&gt;Java, JavaScript, HTML5, CSS3, SQL.&lt;/p&gt;
-
-&lt;h1 id=&#34;skills&#34;&gt;Skills&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nodejs.org&#34;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mochajs.org&#34;&gt;Mocha&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.docker.com&#34;&gt;Docker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://sailsjs.com&#34;&gt;Sails.js&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://socket.io&#34;&gt;Socket.IO&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://git-scm.com&#34;&gt;Git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mysql.com&#34;&gt;MySQL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;languages&#34;&gt;Languages&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Español&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Native competition&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Professional basic competition&lt;/p&gt;
-</description>
+      <description>Who Am I? Hi!, I&amp;rsquo;m Josué Márquez Navarro, a Software Engineer.
+I love&amp;hellip;
+ Coding Mountain Biking Fantastic/Sci-Fi reading Learn new things  Things I do in my free time (some of them)&amp;hellip;  GitHub repos npm packages Docker images Maven Java artifacts Android Apps  Experience February 2018 - Present / Back-End &amp;amp; DevOps Developer at Agave Lab in Guadalajara, MX.
+Currently working with microservices using technologies like:</description>
     </item>
     
   </channel>
