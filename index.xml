@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>joshuamarquez.me</title>
+    <title>joshuamarquez.me - Full-stack developer</title>
     <link>http://joshuamarquez.me/</link>
-    <description>Recent content on joshuamarquez.me</description>
+    <description>Recent content on joshuamarquez.me - Full-stack developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Joshua Marquez</copyright>
@@ -38,10 +38,9 @@ Currently sails.io.js has only support for Browser and Node.js. Here we will lea
       <pubDate>Sun, 08 May 2016 16:51:02 -0700</pubDate>
       
       <guid>http://joshuamarquez.me/page/about/</guid>
-      <description>Who Am I? Hi!, I&amp;rsquo;m Josué Márquez Navarro, a Software Engineer.
+      <description>Who Am I? Hi!, I&amp;rsquo;m Josué Márquez Navarro, a Full-stack developer.
 I love&amp;hellip;
- Coding Mountain Biking Fantastic/Sci-Fi reading Learn new things  Things I do in my free time (some of them)&amp;hellip;  GitHub repos npm packages Docker images Maven Java artifacts Android Apps  Experience February 2018 - Present / Back-End &amp;amp; DevOps Developer at Agave Lab in Guadalajara, MX.
-Currently working with microservices using technologies like:</description>
+ Coding Mountain Biking Fantastic/Sci-Fi reading Learn new things  Things I do in my free time (some of them)&amp;hellip;  GitHub repos -&amp;gt; https://github.com/joshuamarquez?tab=repositories npm packages -&amp;gt; https://www.npmjs.com/~joshua.marquez Docker images -&amp;gt; https://hub.docker.com/r/joshuamarquez Maven Java artifacts -&amp;gt; https://bintray.com/joshuamarquez/maven Android Apps -&amp;gt; https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez  Experience February 2018 - Present / Full-stack Developer at Agave Lab in Guadalajara, MX.</description>
     </item>
     
   </channel>
