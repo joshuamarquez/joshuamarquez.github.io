@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on joshuamarquez.me</title>
-    <link>http://joshuamarquez.me/page/</link>
+    <link>https://joshuamarquez.me/page/</link>
     <description>Recent content in Pages on joshuamarquez.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Joshua Marquez</copyright>
     <lastBuildDate>Sun, 08 May 2016 16:51:02 -0700</lastBuildDate>
     
-	<atom:link href="http://joshuamarquez.me/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://joshuamarquez.me/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>about</title>
-      <link>http://joshuamarquez.me/page/about/</link>
+      <link>https://joshuamarquez.me/page/about/</link>
       <pubDate>Sun, 08 May 2016 16:51:02 -0700</pubDate>
       
-      <guid>http://joshuamarquez.me/page/about/</guid>
+      <guid>https://joshuamarquez.me/page/about/</guid>
       <description>Who Am I? Hi!, I&amp;rsquo;m Josué Márquez Navarro, a Full-stack developer.
 I love&amp;hellip;
  Coding Mountain Biking Fantastic/Sci-Fi reading Learn new things  Things I do in my free time (some of them)&amp;hellip;  GitHub repos -&amp;gt; https://github.com/joshuamarquez?tab=repositories npm packages -&amp;gt; https://www.npmjs.com/~joshua.marquez Docker images -&amp;gt; https://hub.docker.com/r/joshuamarquez Maven Java artifacts -&amp;gt; https://bintray.com/joshuamarquez/maven Android Apps -&amp;gt; https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez  Experience February 2018 - Present / Full-stack Developer at Agave Lab in Guadalajara, MX.</description>

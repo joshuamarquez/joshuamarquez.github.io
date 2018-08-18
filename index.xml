@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>joshuamarquez.me</title>
-    <link>http://joshuamarquez.me/</link>
+    <link>https://joshuamarquez.me/</link>
     <description>Recent content on joshuamarquez.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Joshua Marquez</copyright>
     <lastBuildDate>Wed, 29 Jun 2016 12:45:34 -0700</lastBuildDate>
     
-	<atom:link href="http://joshuamarquez.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://joshuamarquez.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How I Hacked computrabajo.com.mx</title>
-      <link>http://joshuamarquez.me/posts/how-i-hacked-computrabajo/</link>
+      <link>https://joshuamarquez.me/posts/how-i-hacked-computrabajo/</link>
       <pubDate>Wed, 29 Jun 2016 12:45:34 -0700</pubDate>
       
-      <guid>http://joshuamarquez.me/posts/how-i-hacked-computrabajo/</guid>
+      <guid>https://joshuamarquez.me/posts/how-i-hacked-computrabajo/</guid>
       <description>Hi community, today I will show you How I Hacked computrabajo.com.mx, a well known job market site in Latin America.
 computrabajo.com.mx lets you post free jobs offers limited to the first 30 candidates, if the number of candidates interested in your offer exceeds then you have the option to pay for a full one to have access to the remaining candidates. Option to remove candidates subscribed to your offer is only &amp;ldquo;available&amp;rdquo; with a full job offer but I found a way to remove candidates from it in a free job offer allowing you to see the candidates that were hidden due to candidate limit exceeded.</description>
     </item>
     
     <item>
       <title>How to use sails.io.js in Java</title>
-      <link>http://joshuamarquez.me/posts/how-to-use-sails.io.js-in-java/</link>
+      <link>https://joshuamarquez.me/posts/how-to-use-sails.io.js-in-java/</link>
       <pubDate>Sun, 12 Jun 2016 15:10:58 -0700</pubDate>
       
-      <guid>http://joshuamarquez.me/posts/how-to-use-sails.io.js-in-java/</guid>
+      <guid>https://joshuamarquez.me/posts/how-to-use-sails.io.js-in-java/</guid>
       <description>As we know sails.io.js is the Sails socket client that is bundled by default in new Sails apps. It is a lightweight wrapper that sits on top of the Socket.IO client whose purpose is to make sending and receiving messages from your Sails backend as simple as possible.
 Currently sails.io.js has only support for Browser and Node.js. Here we will learn how to make .get(), .post(), .put(), .delete() and .request() methods from sails.</description>
     </item>
     
     <item>
       <title>about</title>
-      <link>http://joshuamarquez.me/page/about/</link>
+      <link>https://joshuamarquez.me/page/about/</link>
       <pubDate>Sun, 08 May 2016 16:51:02 -0700</pubDate>
       
-      <guid>http://joshuamarquez.me/page/about/</guid>
+      <guid>https://joshuamarquez.me/page/about/</guid>
       <description>Who Am I? Hi!, I&amp;rsquo;m Josué Márquez Navarro, a Full-stack developer.
 I love&amp;hellip;
  Coding Mountain Biking Fantastic/Sci-Fi reading Learn new things  Things I do in my free time (some of them)&amp;hellip;  GitHub repos -&amp;gt; https://github.com/joshuamarquez?tab=repositories npm packages -&amp;gt; https://www.npmjs.com/~joshua.marquez Docker images -&amp;gt; https://hub.docker.com/r/joshuamarquez Maven Java artifacts -&amp;gt; https://bintray.com/joshuamarquez/maven Android Apps -&amp;gt; https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez  Experience February 2018 - Present / Full-stack Developer at Agave Lab in Guadalajara, MX.</description>
