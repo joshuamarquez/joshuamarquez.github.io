@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Joshua Marquez</copyright>
-    <lastBuildDate>Wed, 29 Jun 2016 12:45:34 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://joshuamarquez.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>about</title>
+      <link>https://joshuamarquez.me/page/about/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://joshuamarquez.me/page/about/</guid>
+      <description>Who Am I? Hi!, I&amp;rsquo;m Josué Márquez Navarro, a Full-stack developer.
+I love&amp;hellip;
+ Coding Mountain Biking Fantastic/Sci-Fi reading Learn new things Stars  Open source contributions  GitHub -&amp;gt; https://github.com/joshuamarquez?tab=repositories npm -&amp;gt; https://www.npmjs.com/~joshua.marquez Docker -&amp;gt; https://hub.docker.com/r/joshuamarquez Maven -&amp;gt; https://bintray.com/joshuamarquez/maven  Experience February 2018 - Present / Full-stack Developer at Agave Lab in Guadalajara, MX.
+My work here is split in three main areas:
+ Back-end - Node.js, PostgreSQL, MongoDB, GraphQL, gRPC</description>
+    </item>
     
     <item>
       <title>How I Hacked computrabajo.com.mx</title>
@@ -30,17 +43,6 @@ computrabajo.com.mx lets you post free jobs offers limited to the first 30 candi
       <guid>https://joshuamarquez.me/posts/how-to-use-sails.io.js-in-java/</guid>
       <description>As we know sails.io.js is the Sails socket client that is bundled by default in new Sails apps. It is a lightweight wrapper that sits on top of the Socket.IO client whose purpose is to make sending and receiving messages from your Sails backend as simple as possible.
 Currently sails.io.js has only support for Browser and Node.js. Here we will learn how to make .get(), .post(), .put(), .delete() and .request() methods from sails.</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>https://joshuamarquez.me/page/about/</link>
-      <pubDate>Sun, 08 May 2016 16:51:02 -0700</pubDate>
-      
-      <guid>https://joshuamarquez.me/page/about/</guid>
-      <description>Who Am I? Hi!, I&amp;rsquo;m Josué Márquez Navarro, a Full-stack developer.
-I love&amp;hellip;
- Coding Mountain Biking Fantastic/Sci-Fi reading Learn new things  Things I do in my free time (some of them)&amp;hellip;  GitHub repos -&amp;gt; https://github.com/joshuamarquez?tab=repositories npm packages -&amp;gt; https://www.npmjs.com/~joshua.marquez Docker images -&amp;gt; https://hub.docker.com/r/joshuamarquez Maven Java artifacts -&amp;gt; https://bintray.com/joshuamarquez/maven Android Apps -&amp;gt; https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez  Experience February 2018 - Present / Full-stack Developer at Agave Lab in Guadalajara, MX.</description>
     </item>
     
   </channel>
