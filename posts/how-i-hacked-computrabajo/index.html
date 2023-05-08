@@ -9,41 +9,41 @@
     <meta name="description" content="Joshua Marquez&#39;s personal website">
     <meta name="keywords" content="blog,developer,personal,back-end,front-end,full-stack,devops,engineer">
 
-    <base href="https://joshuamarquez.me/">
+    <base href="https://joshuamarquez.github.io/">
     <title>
-  How I Hacked computrabajo.com.mx · joshuamarquez.me
+  How I Hacked computrabajo.com.mx · joshuamarquez.github.io
 </title>
 
-    <link rel="canonical" href="https://joshuamarquez.me/posts/how-i-hacked-computrabajo/">
+    <link rel="canonical" href="https://joshuamarquez.github.io/posts/how-i-hacked-computrabajo/">
 
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
-    <link rel="stylesheet" href="https://joshuamarquez.me/css/style.min.css">
+    <link rel="stylesheet" href="https://joshuamarquez.github.io/css/style.min.css">
 
-    <link rel="icon" type="image/png" href="https://joshuamarquez.me/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://joshuamarquez.me/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://joshuamarquez.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://joshuamarquez.github.io/images/favicon-16x16.png" sizes="16x16">
 
     
 
-    <meta name="generator" content="Hugo 0.52" />
+    <meta name="generator" content="Hugo 0.111.3">
   </head>
 
   <body>
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="https://joshuamarquez.me/">
-      joshuamarquez.me
+    <a class="navigation-title" href="https://joshuamarquez.github.io/">
+      joshuamarquez.github.io
     </a>
     
     <ul class="navigation-list float-right">
       
       <li class="navigation-item">
-        <a class="navigation-link" href="https://joshuamarquez.me/posts/">Blog</a>
+        <a class="navigation-link" href="https://joshuamarquez.github.io/posts/">Blog</a>
       </li>
       
       <li class="navigation-item">
-        <a class="navigation-link" href="https://joshuamarquez.me/page/about/">About</a>
+        <a class="navigation-link" href="https://joshuamarquez.github.io/page/about/">About</a>
       </li>
       
     </ul>
@@ -65,52 +65,34 @@
 
     <p>Hi community, today I will show you How I Hacked <a href="http://www.computrabajo.com.mx/">computrabajo.com.mx</a>,
 a well known job market site in Latin America.</p>
-
 <p><strong>computrabajo.com.mx</strong> lets you post free jobs offers limited to the first 30 candidates,
 if the number of candidates interested in your offer exceeds then you have the option to
 pay for a full one to have access to the remaining candidates. Option to remove candidates
 subscribed to your offer is only &ldquo;available&rdquo; with a full job offer but I found a
 way to remove candidates from it in a free job offer allowing you to see the
 candidates that were hidden due to candidate limit exceeded.</p>
-
 <p>In the following image we can see that 32 candidates are subscribed to a job
 offer and a message appears in the bottom telling us that 2 candidates are hidden and
 can be shown paying a full job offer.</p>
-
-<p><img src="https://joshuamarquez.me/img/screenshot_2016-06-29 12-08-15.png" alt="screenshot_01" /></p>
-
+<p>![screenshot_01](/img/screenshot_2016-06-29 12-08-15.png)</p>
 <p>computrabajo.com.mx has a method named <code>DeleteCandidate(p_ims, m_folder_id)</code>
 which is used to remove candidates subscribed in a job offer, we can see it in
 Developer tools.</p>
-
-<p><img src="https://joshuamarquez.me/img/screenshot_2016-06-29 12-11-08.png" alt="screenshot_02" /></p>
-
+<p>![screenshot_02](/img/screenshot_2016-06-29 12-11-08.png)</p>
 <p>Now we need that <code>p_ims</code> in order to remove a candidate, we can get it from URL
 by viewing a candidate profile.</p>
-
-<p><img src="https://joshuamarquez.me/img/screenshot_2016-06-29 12-12-03.png" alt="screenshot_03" /></p>
-
+<p>![screenshot_03](/img/screenshot_2016-06-29 12-12-03.png)</p>
 <p>Next is to execute <code>DeleteCandidate(&lt;ims we got from URL&gt;, '1')</code> with <code>ims</code> we got from URL.</p>
-
-<p><img src="https://joshuamarquez.me/img/screenshot_2016-06-29 12-13-11.png" alt="screenshot_04" /></p>
-
+<p>![screenshot_04](/img/screenshot_2016-06-29 12-13-11.png)</p>
 <p>A alert is shown asking if you want to remove candidate.</p>
-
-<p><img src="https://joshuamarquez.me/img/screenshot_2016-06-29 12-13-40.png" alt="screenshot_05" /></p>
-
+<p>![screenshot_05](/img/screenshot_2016-06-29 12-13-40.png)</p>
 <p>We press <code>OK</code></p>
-
-<p><img src="https://joshuamarquez.me/img/screenshot_2016-06-29 12-13-52.png" alt="screenshot_06" /></p>
-
+<p>![screenshot_06](/img/screenshot_2016-06-29 12-13-52.png)</p>
 <p>Now if we list our candidates we can see that we have 31 subscriptions and a
 message saying that we only have 1 candidate hidden.</p>
-
-<p><img src="https://joshuamarquez.me/img/screenshot_2016-06-29 12-14-06.png" alt="screenshot_07" /></p>
-
+<p>![screenshot_07](/img/screenshot_2016-06-29 12-14-06.png)</p>
 <p>Previous hidden candidate now is available.</p>
-
-<p><img src="https://joshuamarquez.me/img/screenshot_2016-06-29 12-14-20.png" alt="screenshot_08" /></p>
-
+<p>![screenshot_08](/img/screenshot_2016-06-29 12-14-20.png)</p>
 <p><strong>computrabajo.com.mx</strong> has been noticed about this issue and we hope they will fix it soon.</p>
 
   </article>
@@ -120,7 +102,7 @@ message saying that we only have 1 candidate hidden.</p>
   
       <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     
@@ -165,7 +147,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   </body>
 

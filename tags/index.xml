@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on joshuamarquez.me</title>
-    <link>https://joshuamarquez.me/tags/</link>
-    <description>Recent content in Tags on joshuamarquez.me</description>
+    <title>Tags on joshuamarquez.github.io</title>
+    <link>https://joshuamarquez.github.io/tags/</link>
+    <description>Recent content in Tags on joshuamarquez.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Joshua Marquez</copyright>
-    
-	<atom:link href="https://joshuamarquez.me/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Joshua Marquez</copyright><atom:link href="https://joshuamarquez.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

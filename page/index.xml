@@ -1,28 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on joshuamarquez.me</title>
-    <link>https://joshuamarquez.me/page/</link>
-    <description>Recent content in Pages on joshuamarquez.me</description>
+    <title>Pages on joshuamarquez.github.io</title>
+    <link>https://joshuamarquez.github.io/page/</link>
+    <description>Recent content in Pages on joshuamarquez.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Joshua Marquez</copyright>
-    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://joshuamarquez.me/page/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 -0700</lastBuildDate><atom:link href="https://joshuamarquez.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
-      <link>https://joshuamarquez.me/page/about/</link>
+      <link>https://joshuamarquez.github.io/page/about/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://joshuamarquez.me/page/about/</guid>
+      <guid>https://joshuamarquez.github.io/page/about/</guid>
       <description>Who Am I? Hi!, I&amp;rsquo;m Josué Márquez Navarro, a Full-stack developer.
 I love&amp;hellip;
- Coding Mountain Biking Fantastic/Sci-Fi reading Learn new things Stars  Open source contributions  GitHub -&amp;gt; https://github.com/joshuamarquez?tab=repositories npm -&amp;gt; https://www.npmjs.com/~joshua.marquez Docker -&amp;gt; https://hub.docker.com/r/joshuamarquez Maven -&amp;gt; https://bintray.com/joshuamarquez/maven  Experience February 2018 - Present / Full-stack Developer at Agave Lab in Guadalajara, MX.
+Coding Mountain Biking Fantastic/Sci-Fi reading Learn new things Stars Open source contributions GitHub -&amp;gt; https://github.com/joshuamarquez?tab=repositories npm -&amp;gt; https://www.npmjs.com/~joshua.marquez Docker -&amp;gt; https://hub.docker.com/r/joshuamarquez Maven -&amp;gt; https://bintray.com/joshuamarquez/maven Experience February 2018 - Present / Full-stack Developer at Agave Lab in Guadalajara, MX.
 My work here is split in three main areas:
- Back-end - Node.js, PostgreSQL, MongoDB, GraphQL, gRPC</description>
+Back-end - Node.js, PostgreSQL, MongoDB, GraphQL, gRPC
+Front-end - React, Sass, GraphQL, Redux, Webpack</description>
     </item>
     
   </channel>
