@@ -4,43 +4,31 @@
     <title>joshuamarquez.github.io</title>
     <link>https://joshuamarquez.github.io/</link>
     <description>Recent content on joshuamarquez.github.io</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Joshua Marquez</copyright>
-    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 -0700</lastBuildDate><atom:link href="https://joshuamarquez.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 -0700</lastBuildDate>
+    <atom:link href="https://joshuamarquez.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
       <link>https://joshuamarquez.github.io/page/about/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 -0700</pubDate>
-      
       <guid>https://joshuamarquez.github.io/page/about/</guid>
-      <description>Who Am I? Hi!, I&amp;rsquo;m Josué Márquez Navarro, a Full-stack developer.
-I love&amp;hellip;
-Coding Mountain Biking Fantastic/Sci-Fi reading Learn new things Stars Open source contributions GitHub -&amp;gt; https://github.com/joshuamarquez?tab=repositories npm -&amp;gt; https://www.npmjs.com/~joshua.marquez Docker -&amp;gt; https://hub.docker.com/r/joshuamarquez Maven -&amp;gt; https://bintray.com/joshuamarquez/maven Experience February 2018 - Present / Full-stack Developer at Agave Lab in Guadalajara, MX.
-My work here is split in three main areas:
-Back-end - Node.js, PostgreSQL, MongoDB, GraphQL, gRPC
-Front-end - React, Sass, GraphQL, Redux, Webpack</description>
+      <description>&lt;h3 id=&#34;who-am-i&#34;&gt;Who Am I?&lt;/h3&gt;&#xA;&lt;p&gt;Hi!, I&amp;rsquo;m Josué Márquez Navarro, a Full-stack developer.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;I love&amp;hellip;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mountaineering&lt;/li&gt;&#xA;&lt;li&gt;Mountain Biking&lt;/li&gt;&#xA;&lt;li&gt;Coding&lt;/li&gt;&#xA;&lt;li&gt;Learn new things&lt;/li&gt;&#xA;&lt;li&gt;Fantastic/Sci-Fi stuff&lt;/li&gt;&#xA;&lt;li&gt;Night Sky&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;open-source-contributions&#34;&gt;Open source contributions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GitHub -&amp;gt; &lt;a href=&#34;https://github.com/joshuamarquez?tab=repositories&#34;&gt;https://github.com/joshuamarquez?tab=repositories&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;npm -&amp;gt; &lt;a href=&#34;https://www.npmjs.com/~joshua.marquez&#34;&gt;https://www.npmjs.com/~joshua.marquez&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Docker -&amp;gt; &lt;a href=&#34;https://hub.docker.com/r/joshuamarquez&#34;&gt;https://hub.docker.com/r/joshuamarquez&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Maven -&amp;gt; &lt;a href=&#34;https://bintray.com/joshuamarquez/maven&#34;&gt;https://bintray.com/joshuamarquez/maven&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;experience&#34;&gt;Experience&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;February 2018 - Present&lt;/em&gt; / Full-stack Developer at &lt;a href=&#34;http://agavelab.com/&#34;&gt;Agave Lab&lt;/a&gt; in Guadalajara, MX.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;My work here is split in three main areas:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Back-end - Node.js, PostgreSQL, MongoDB, GraphQL, gRPC&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Front-end - React, Sass, GraphQL, Redux, Webpack&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How I Hacked computrabajo.com.mx</title>
       <link>https://joshuamarquez.github.io/posts/how-i-hacked-computrabajo/</link>
       <pubDate>Wed, 29 Jun 2016 12:45:34 -0700</pubDate>
-      
       <guid>https://joshuamarquez.github.io/posts/how-i-hacked-computrabajo/</guid>
-      <description>Hi community, today I will show you How I Hacked computrabajo.com.mx, a well known job market site in Latin America.
-computrabajo.com.mx lets you post free jobs offers limited to the first 30 candidates, if the number of candidates interested in your offer exceeds then you have the option to pay for a full one to have access to the remaining candidates. Option to remove candidates subscribed to your offer is only &amp;ldquo;available&amp;rdquo; with a full job offer but I found a way to remove candidates from it in a free job offer allowing you to see the candidates that were hidden due to candidate limit exceeded.</description>
+      <description>&lt;p&gt;Hi community, today I will show you How I Hacked &lt;a href=&#34;http://www.computrabajo.com.mx/&#34;&gt;computrabajo.com.mx&lt;/a&gt;,&#xA;a well known job market site in Latin America.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;computrabajo.com.mx&lt;/strong&gt; lets you post free jobs offers limited to the first 30 candidates,&#xA;if the number of candidates interested in your offer exceeds then you have the option to&#xA;pay for a full one to have access to the remaining candidates. Option to remove candidates&#xA;subscribed to your offer is only &amp;ldquo;available&amp;rdquo; with a full job offer but I found a&#xA;way to remove candidates from it in a free job offer allowing you to see the&#xA;candidates that were hidden due to candidate limit exceeded.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to use sails.io.js in Java</title>
       <link>https://joshuamarquez.github.io/posts/how-to-use-sails.io.js-in-java/</link>
       <pubDate>Sun, 12 Jun 2016 15:10:58 -0700</pubDate>
-      
       <guid>https://joshuamarquez.github.io/posts/how-to-use-sails.io.js-in-java/</guid>
-      <description>As we know sails.io.js is the Sails socket client that is bundled by default in new Sails apps. It is a lightweight wrapper that sits on top of the Socket.IO client whose purpose is to make sending and receiving messages from your Sails backend as simple as possible.
-Currently sails.io.js has only support for Browser and Node.js. Here we will learn how to make .get(), .post(), .put(), .delete() and .request() methods from sails.</description>
+      <description>&lt;p&gt;As we know &lt;a href=&#34;https://github.com/balderdashy/sails.io.js&#34;&gt;sails.io.js&lt;/a&gt; is the&#xA;Sails socket client that is bundled by default in new Sails apps. It is a&#xA;lightweight wrapper that sits on top of the Socket.IO client whose purpose is&#xA;to make sending and receiving messages from your Sails backend as simple as&#xA;possible.&lt;/p&gt;&#xA;&lt;p&gt;Currently sails.io.js has only support for&#xA;&lt;a href=&#34;https://github.com/balderdashy/sails.io.js#for-the-browser&#34;&gt;Browser&lt;/a&gt; and&#xA;&lt;a href=&#34;https://github.com/balderdashy/sails.io.js#for-nodejs&#34;&gt;Node.js&lt;/a&gt;. Here we will&#xA;learn how to make &lt;code&gt;.get()&lt;/code&gt;, &lt;code&gt;.post()&lt;/code&gt;, &lt;code&gt;.put()&lt;/code&gt;, &lt;code&gt;.delete()&lt;/code&gt; and &lt;code&gt;.request()&lt;/code&gt;&#xA;methods from &lt;code&gt;sails.io.js&lt;/code&gt; in &lt;strong&gt;Java&lt;/strong&gt; with &lt;a href=&#34;https://github.com/socketio/socket.io-client-java&#34;&gt;socket.io-client-java&lt;/a&gt;.&#xA;For &lt;code&gt;.off()&lt;/code&gt; and &lt;code&gt;.on()&lt;/code&gt; there is no need since &lt;code&gt;socket.io-client-java&lt;/code&gt;&#xA;already does that.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
